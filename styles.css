@@ -1,6 +1,6 @@
 body {
-    background-color:thistle;
-    padding-top: 2rem;
+    background-color: #2E5266;
+    padding-top: 20rem;
 }
 
 .quote {
@@ -9,8 +9,8 @@ body {
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
-    padding: 1.5rem;
-    border: 2px solid #070c2c;
+    padding: 2rem;
+    border: 3px solid #6E8898;
     color: #fff;
     border-radius: 0.4rem;
 }
@@ -22,13 +22,14 @@ body {
 
 .quote .author {
     font-weight: bold;
-    color: #070c2c;
+    color: #182A35;
 }
 
 .button {
     font-size: 1.4rem;
-    background-color: #070c2c;
+    background-color: #6E8898;
     color: #fff;
+    text-transform: uppercase;
     border: none;
     border-radius: 5px;
     padding: 0.8rem 1.2rem;
@@ -37,5 +38,5 @@ body {
 }
 
 .button:hover {
-    background-color: #6f6190;
+    opacity: .6;
 }
